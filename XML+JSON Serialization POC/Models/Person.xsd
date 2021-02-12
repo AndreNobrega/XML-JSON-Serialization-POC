@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="Person">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ID" type="xs:string"/>
+        <xs:element name="Details" type="PersonalDetails"/>
+        <xs:element name="Address" type="Address"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  
+  <xs:complexType name="PersonalDetails">
+    <xs:sequence>
+      <xs:element name="FirstName" type="xs:string"/>
+      <xs:element name="LastName" type="xs:string"/>
+      <xs:element name="BirthDate" type="xs:date"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Address">
+    <xs:sequence>
+      <xs:element name="Street" type="xs:string"/>
+      <xs:element name="Nr" type="xs:string"/>
+      <xs:element name="Postbox" type="xs:string"/>
+      <xs:element name="ZIP" type="xs:string"/>
+      <xs:element name="City" type="xs:string"/>
+      <xs:element name="Country" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

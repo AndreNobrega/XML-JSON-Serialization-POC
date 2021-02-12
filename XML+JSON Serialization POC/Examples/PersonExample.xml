@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Person>
+  <ID>ID1</ID>
+  <Details>
+    <FirstName>John</FirstName>
+    <LastName>Doe</LastName>
+    <BirthDate>1900-01-01</BirthDate>
+  </Details>
+  <Address>
+    <Street>Fake Str.</Street>
+    <Nr>123</Nr>
+    <Postbox>A</Postbox>
+    <ZIP>1234</ZIP>
+    <City>Springfield</City>
+    <Country>USA</Country>
+  </Address>
+</Person>
