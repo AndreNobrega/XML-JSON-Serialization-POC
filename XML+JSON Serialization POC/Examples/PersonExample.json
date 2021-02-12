@@ -1,18 +1,16 @@
 ﻿{
-	"Person": {
-		"ID": "ID1",
-		"Details": {
-			"FirstName": "John",
-			"LastName": "Doe",
-			"BirthDate": "1990-01-01"
-		},
-		"Address": {
-			"Street": "Fake Str.",
-			"Nr": "123",
-			"Postbox": "A",
-			"ZIP": "1234",
-			"City": "Springfield",
-			"Country": "USA"
-		}
+	"ID": "ID1",
+	"Details": {
+		"FirstName": "John",
+		"LastName": "Doe",
+		"BirthDate": "1990-01-01"
+	},
+	"Address": {
+		"Street": "Fake Str.",
+		"Nr": "123",
+		"Postbox": "A",
+		"ZIP": "1234",
+		"City": "Springfield",
+		"Country": "USA"
 	}
 }
